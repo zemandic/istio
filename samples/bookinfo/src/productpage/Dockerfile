@@ -14,6 +14,8 @@
 
 FROM python:3.12.1-slim
 
+MAINTAINER Zeljko <mail@zeljko>
+
 WORKDIR /
 
 COPY requirements.txt ./
